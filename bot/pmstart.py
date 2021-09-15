@@ -41,12 +41,12 @@ async def start(client, message):
                 InlineKeyboardButton("❓ Help & Commands", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("💾 Source Code", url=f"https://github.com/dihanofficial/VideoPlayerBot"),
+                InlineKeyboardButton("👨‍💻 Developer", url=f"https://t.me/lakshanmy"),
                  InlineKeyboardButton("👨‍🔧About Me", callback_data="about"),
             ],
             [
-                InlineKeyboardButton("🙋‍♂️ Updates Channel", url=f"https://t.me/dihanofficial"),
-                InlineKeyboardButton("🙋‍♀️ Support Group", url=f"https://t.me/dihan_official"),
+                InlineKeyboardButton("🙋‍♂️ Updates Channel", url=f"https://t.me/UNLIMITEDworldTEAM"),
+                InlineKeyboardButton("🙋‍♀️ Support Group", url=f"https://t.me/unlimitedworld_TM_group"),
             ],
             [
                InlineKeyboardButton("➕ Add me to your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
@@ -67,7 +67,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton("Back", callback_data="start"),
-                InlineKeyboardButton ("🙋‍♀️ Support Group", url=f"https://t.me/dihan_official"),
+                InlineKeyboardButton ("🙋‍♀️ Support Group", url=f"https://t.me/unlimitedworld_TM_group"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -83,7 +83,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton("Back", callback_data="start"),
-                InlineKeyboardButton ("🙋‍♀️ Support Group", url=f"https://t.me/dihan_official"),
+                InlineKeyboardButton ("🙋‍♀️ Support Group", url=f"https://t.me/unlimitedworld_TM_group"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -102,12 +102,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("❓ Help & Commands", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("💾 Source Code", url=f"https://github.com/dihanofficial/VideoPlayerBot"),
-                 InlineKeyboardButton("👨‍🔧About Me", callback_data="about"),
+                InlineKeyboardButton("👨‍💻 Developer", url=f"https://github.com/dihanofficial/VideoPlayerBot"),
+                 InlineKeyboardButton("👨‍🔧 About Me", callback_data="about"),
             ],
             [
-                InlineKeyboardButton("🙋‍♂️ Updates Channel", url=f"https://t.me/dihanofficial"),
-                InlineKeyboardButton("🙋‍♀️ Support Group", url=f"https://t.me/dihan_official"),
+                InlineKeyboardButton("🙋‍♂️ Updates Channel", url=f"https://t.me/UNLIMITEDworldTEAM"),
+                InlineKeyboardButton("🙋‍♀️ Support Group", url=f"https://t.me/unlimitedworld_TM_group"),
             ],
             [
                InlineKeyboardButton("➕ Add me to your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
