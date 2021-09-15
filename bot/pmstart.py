@@ -41,7 +41,7 @@ async def start(client, message):
                 InlineKeyboardButton("❓ Help & Commands", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("👨‍💻 Developer", url=f"https://t.me/lakshanmy"),
+                InlineKeyboardButton("👨‍💻 Developer", url=f"https://t.me/Lakshan_S"),
                  InlineKeyboardButton("👨‍🔧About Me", callback_data="about"),
             ],
             [
@@ -102,7 +102,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("❓ Help & Commands", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("👨‍💻 Developer", url=f"https://github.com/dihanofficial/VideoPlayerBot"),
+                InlineKeyboardButton("👨‍💻 Developer", url=f"https://t.me/Lakshan_S"),
                  InlineKeyboardButton("👨‍🔧 About Me", callback_data="about"),
             ],
             [
