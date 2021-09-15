@@ -34,7 +34,7 @@ from config import ASSISTANT_NAME, BOT_USERNAME
 from plugins.tr import *
 from pyrogram.errors import MessageNotModified
 
-@Client.on_message(filters.command("start"))
+@Client.on_message(filters.command("tstart"))
 async def start(client, message):
    buttons = [
             [
